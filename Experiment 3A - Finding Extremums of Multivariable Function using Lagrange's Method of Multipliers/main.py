@@ -40,6 +40,7 @@ ax.plot_surface(X, Y, Z, cmap='viridis', alpha=0.6)
 # Plot the constraint g(x, y) = 0 (as a line)
 gv_x = np.linspace(x_sol - 3, x_sol + 3, 100)
 gv_y = 10 - gv_x  # From the equation x + y = 10
+gv_y[np.isnan(gv_y)] = 0  # Avoid division by zero (when x=0)
 fv_z = f(gv_x, gv_y)
 
 # Plot the constraint in red
