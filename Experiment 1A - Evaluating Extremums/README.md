@@ -12,4 +12,4 @@ Local minimum occur at x=
 The local Minimum Value(s) of the function are 
 [-1.e+00  6.e-04 -1.e+00]
 ```
-![matlab-code-python-rewrite](https://github.com/felixity1917/matlab-code-python-rewrite/blob/main/Experiment 1A - Evaluating Extremums/Assets/Figure_1.png?raw=true)
+![matlab-code-python-rewrite](https://github.com/felixity1917/matlab-code-python-rewrite/blob/main/Experiment%201A%20-%20Evaluating%20Extremums/Assets/Figure_1.png?raw=true)
